@@ -33,7 +33,6 @@ namespace alura
 
             };
 
-
             contexto.Produtos.Add(p);
             contexto.SaveChanges();
 

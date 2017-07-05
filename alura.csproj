@@ -127,6 +127,10 @@
     <Compile Include="Migrations\20170705032303_criaUsuario.designer.cs">
       <DependentUpon>20170705032303_criaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20170705040152_criaProdutoECat.cs" />
+    <Compile Include="Migrations\20170705040152_criaProdutoECat.designer.cs">
+      <DependentUpon>20170705040152_criaProdutoECat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\EntidadesContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
