@@ -14,8 +14,28 @@ namespace alura
 
 
             EntidadesContext contexto = new EntidadesContext();
-            Categoria c = new Categoria();
+            Categoria c = new Categoria() {
 
+                Nome = "Informática"
+
+            };
+
+
+            contexto.Categorias.Add(c);
+            contexto.SaveChanges();
+
+            Produto p = new Produto()
+            {
+
+                Nome = "Mouse",
+                Preco = 20,
+                Categoria = c
+
+            };
+
+
+            contexto.Produtos.Add(p);
+            contexto.SaveChanges();
 
 
         }

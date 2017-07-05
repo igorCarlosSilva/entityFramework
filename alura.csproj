@@ -119,6 +119,8 @@
       <DependentUpon>aluraCursoEntityDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="EntidadesContext.cs" />
+    <Compile Include="Entidades\Categoria.cs" />
+    <Compile Include="Entidades\Produto.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="ManipuladorUsuario.cs" />
     <Compile Include="Migrations\20170705032303_criaUsuario.cs" />
